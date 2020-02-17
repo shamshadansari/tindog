@@ -1,0 +1,178 @@
+body {
+  font-family: 'Montserrat';
+  text-align: center;
+}
+
+#title {
+  text-align: left;
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat-black', sans-serif;
+}
+
+.title-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.features-heading {
+  font-weight: bold;
+}
+
+.testimonial-heading {
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+p {
+  color: grey;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* sections */
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* navigation bar */
+.navbar {
+  padding: 0 0 2.5rem 0;
+}
+
+.navbar-brand {
+  font-family: Ubuntu;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0px 18px;
+}
+
+.nav-link {
+  font-family: 'Montserrat';
+}
+
+/* download button */
+.btn {
+  margin: 5% 3% 5% 0;
+}
+
+/* title-image */
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* media query makes pages responsive under certain condition */
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+
+  h1 {
+    font-size: 2.6rem;
+  }
+}
+
+/* features section */
+#features {
+  padding: 7% 15%;
+  position: relative;
+}
+
+.features-padding {
+  padding: 0;
+}
+
+.box {
+  padding: 5%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: red;
+}
+
+/* testimonial-section */
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonial-image {
+  width: 15%;
+  border-radius: 100%;
+  margin: 3%;
+}
+
+/* press section */
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px;
+}
+
+/* media query makes pages responsive under certain condition */
+@media (max-width: 600px) {
+  .press-logo {
+    width: 30%;
+  }
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* pricing */
+#pricing {
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 2% 3%;
+}
+
+.pricing-heading {
+  font-weight: bold;
+}
+
+/* cta section */
+.cta {
+  padding: 4% 7% 0% 7%;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+/* footer section */
+#footer {
+  padding: 4% 2% 2%;
+}
+
+.footer-icon {
+  padding-left: 2%;
+}
